@@ -1,0 +1,40 @@
+.nav-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px 30px;
+  border-bottom: 2px solid #5b7007;
+  .logo-wrapper {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    img {
+      width: 60px;
+      height: 60px;
+    }
+    p {
+      font-size: x-large;
+      font-family: marce;
+    }
+  }
+  h2 {
+    font-weight: 900;
+  }
+  .nav {
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 20%;
+    display: flex;
+    gap: 15px;
+    text-align: center;
+    .nav-link,
+    .nav-active {
+      color: black;
+      text-decoration: none;
+    }
+    .nav-active {
+      border-bottom: 2px solid #5b7007;
+    }
+  }
+}
