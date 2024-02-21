@@ -19,7 +19,7 @@ import PropTypes from "prop-types";
  * @param {object} data - data for table
  * @return {HTMLElement} table component generated HTML
  */
-export default function Table({ columns, data }) {
+function Table({ columns, data }) {
   // Use the state and functions returned from useTable to build your UI
   const {
     getTableProps,
@@ -171,3 +171,5 @@ Table.prototype = {
   columns: PropTypes.array.isRequired,
   data: PropTypes.object.isRequired,
 };
+
+export default Table;

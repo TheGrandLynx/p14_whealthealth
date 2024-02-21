@@ -47,14 +47,3 @@ table tr:hover {
   margin-left: 15px;
   margin-top: 10px;
 }
-
-@media screen and (max-width: 699px) {
-  .containerFilter {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-  .showing {
-    margin-top: 10px;
-  }
-}
